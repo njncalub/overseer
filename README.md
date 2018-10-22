@@ -1,5 +1,7 @@
 # wn-wiki-insights
 
+[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
 A helpful tool for managing web novel wikis.
 
 This is a work in progress, if you find a mistake, please [file an issue](https://github.com/njncalub/wn-wiki-insights/issues). Thanks!
