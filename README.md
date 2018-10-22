@@ -15,10 +15,10 @@ This is a work in progress, if you find a mistake, please [file an issue](https:
 - [ ] Ability to edit/reformat chapters.
 
 ## MVP 2 - Checklist
-- [ ] Extract pronouns (e.g. Character Names, Locations, Items, etc) from the chapters using NLTK.
-- [ ] Add these pronouns as Tags to the Chapter.
+- [ ] Add/edit Tags to the Chapter.
 - [ ] Tags can be clicked and the Chapters list will be filtered.
 - [ ] RegExp can be used in the search query for advanced filtering.
+- [ ] Automatically extract pronouns (e.g. Character Names, Locations, Items, etc) from the chapters using NLTK.
 
 ## Requirements
 
