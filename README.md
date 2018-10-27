@@ -1,6 +1,6 @@
 # overseer
 
-![Status](https://img.shields.io/badge/status-planning-red.svg) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE) [![PRs welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round-square)](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github) [![Formatted by Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/)
+![Status](https://img.shields.io/badge/status-planning-red.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round-square)](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github) [![Formatted by Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
 A helpful tool for managing web novel wikis.
 
