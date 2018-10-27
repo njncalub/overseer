@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>The Overseer</title>
 
@@ -11,13 +11,46 @@
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
+
+  <!-- NAVBAR -->
+  <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+
+      <!-- BRAND -->
+      <a class="navbar-item" href="#home" title="The Overseer">
+        <h1 id="brand" class="title">
+          <i class="fas fa-hamsa"></i> <span class="is-hidden-mobile">The Overseer</span>
+        </h1>
+      </a>
+
+      <!-- SEARCH BAR -->
+      <div class="navbar-item is-expanded">
+        <div id="search-container" class="field has-addons">
+          <div class="control is-expanded">
+            <input class="input" type="text" placeholder="Find">
+          </div>
+          <div class="control">
+            <a class="button is-info">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </nav>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="content">
+      <p>
+        <a href="https://github.com/njncalub/overseer"><strong>The Overseer</strong></a> by <a href="https://njncalub.github.io">Nap
+          Joseph Calub</a>. The
+        source code is
+        licensed <a href="https://github.com/njncalub/overseer/blob/master/LICENSE">MIT</a>.
+      </p>
+    </div>
+  </footer>
 
   <script src="./index.ts"></script>
 </body>
