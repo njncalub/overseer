@@ -1,0 +1,27 @@
+{
+  "name": "overseer",
+  "version": "0.0.1",
+  "description": "A helpful tool for managing web novel wikis.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njncalub/overseer.git"
+  },
+  "author": "Nap Joseph Calub <njncalub@gmail.com> (https://njncalub.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njncalub/overseer/issues"
+  },
+  "homepage": "https://github.com/njncalub/overseer#readme",
+  "dependencies": {
+    "bulma": "^0.7.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.1.3"
+  }
+}
