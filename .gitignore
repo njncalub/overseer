@@ -1,0 +1,15 @@
+# Files
+
+.DS_Store
+.ruby-version
+npm-debug.log
+
+# Folders
+
+_gh_pages
+_site
+.cache
+.idea/
+.sass-cache
+dist
+node_modules
