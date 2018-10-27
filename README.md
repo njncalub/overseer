@@ -1,4 +1,4 @@
-# wn-wiki-helper
+# overseer
 
 ![Status](https://img.shields.io/badge/status-planning-red.svg)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
