@@ -1,9 +1,6 @@
 # overseer
 
-![Status](https://img.shields.io/badge/status-planning-red.svg)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![PRs welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round-square)](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
-[![Formatted by Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+![Status](https://img.shields.io/badge/status-planning-red.svg) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE) [![PRs welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round-square)](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github) [![Formatted by Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/)
 
 A helpful tool for managing web novel wikis.
 
@@ -12,43 +9,38 @@ This is a work in progress, if you find a mistake, please [file an issue](https:
 ## Requirements
 
 - [pipenv](https://github.com/pypa/pipenv)
-
-## Model Definitions
-
-The app should accept the following format. Modify as needed.
-
-```typescript
-export interface Chapter {
-  url: string;
-  chapter: number;
-  title: string;
-  content: string;
-}
-
-export interface Novel {
-  title: string;
-  chapters: Chapter[];
-}
-```
+- [npm](https://www.npmjs.com/)
 
 ## Installation
 
 ```bash
 # Go to the project directory.
-$ cd <project directory>
+cd <project directory>
 
-# Install requirements using pipenv.
-$ pipenv install
+# Install the python requirements using pipenv.
+pipenv install
+
+# Install the UI requirements using npm.
+npm install
 ```
 
-## Running the scraper
+## Scraping novel data
 
 ```bash
 # First, update the settings of your spider using your favorite editor.
-$ ${FCEDIT:-${VISUAL:-${EDITOR:-vim}}} spiders/structured.py
+vim spiders/structured.py
 
 # Run the scraper using pipenv.
-$ pipenv run scrapy runspider spiders/structured.py -o output.json
+pipenv run scrapy runspider spiders/structured.py -o output.json
+```
+
+## Starting the app
+
+```bash
+# Use npm to start a local parcel development server.
+$ npm start dev
+Server running at http://localhost:1234
+✨  Built in 3.37s.
 ```
 
 ## Contributing
